@@ -1,61 +1,78 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto</title>
 
-<h1>🚀 Meu Projeto</h1>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
-<p>
-  Um projeto desenvolvido com foco em desempenho, escalabilidade e experiência do usuário.
-</p>
+        body{
+            background:#0f172a;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
 
-<p>
-  <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-</p>
+        .card{
+            background:#1e293b;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            max-width:600px;
+            box-shadow:0 0 30px rgba(0,0,0,.4);
+        }
 
-<p>
-  <a href="https://seu-projeto.vercel.app">
-    <img src="https://img.shields.io/badge/Acessar%20Site-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  </a>
+        h1{
+            font-size:3rem;
+            margin-bottom:20px;
+        }
 
-  <a href="https://github.com/seuusuario/seurepositorio">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
-  </a>
-</p>
+        p{
+            color:#cbd5e1;
+            margin-bottom:30px;
+            line-height:1.6;
+        }
 
+        a{
+            display:inline-block;
+            text-decoration:none;
+            background:#000;
+            color:white;
+            padding:15px 30px;
+            border-radius:10px;
+            transition:.3s;
+            font-weight:bold;
+        }
+
+        a:hover{
+            transform:scale(1.05);
+            background:#111827;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🚀 Projeto Online</h1>
+
+    <p>
+        Bem-vindo! Este site está hospedado na Vercel.
+        Personalize esta página com seu conteúdo.
+    </p>
+
+    <a href="https://github.com/seuusuario/seurepositorio" target="_blank">
+        Ver no GitHub
+    </a>
 </div>
 
-<hr>
-
-<h2>✨ Recursos</h2>
-
-<ul>
-  <li>⚡ Alta performance</li>
-  <li>📱 Responsivo</li>
-  <li>🔒 Seguro</li>
-  <li>🎨 Interface moderna</li>
-  <li>☁️ Deploy na Vercel</li>
-</ul>
-
-<hr>
-
-<h2>🛠 Tecnologias</h2>
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,vercel,git,github" />
-</p>
-
-<hr>
-
-<h2>📷 Preview</h2>
-
-<p align="center">
-<img src="https://via.placeholder.com/1000x500.png?text=Preview+do+Projeto" width="900">
-</p>
-
-<hr>
-
-<div align="center">
-
-Feito com ❤️ por <strong>Seu Nome</strong>
-
-</div>
+</body>
+</html>
